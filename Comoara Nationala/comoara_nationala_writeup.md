@@ -11,7 +11,7 @@
 ## Description
 
 > Te-ai pregatit pentru bac, tinere?  
-> Daca da vei obtine flagul mai repede decat ai zice peste.  
+> Daca da vei obtine fl     agul mai repede decat ai zice peste.  
 > Inainte sa pui intrebari, tinere, respecta regulile gramaticii limbii romane.
 
 The description hints at Romanian high school literature ("bac" = Baccalaureate exam), pointing us toward classic Romanian literary works studied in school.
