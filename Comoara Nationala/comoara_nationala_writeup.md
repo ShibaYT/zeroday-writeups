@@ -139,7 +139,7 @@ ZDTM{bravo_tinere_sunt_mandru_de_tine}
 ## Summary
 
 1. Recognize the book cipher format `BOOK:chapter:line:word_index`
-2. Identify the four Romanian classic works from their abbreviations (Bac knowledge required!)
+2. Identify the four Romanian classic works from their abbreviations
 3. Look up each reference in the corresponding text to extract a letter/word
 4. Concatenate to get the ZIP password: `euamivitcuvintepotrivite`
 5. Unzip to get the flag
