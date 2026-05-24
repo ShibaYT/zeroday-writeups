@@ -1,8 +1,8 @@
 # ZeroDayTM CTF Writeups
 
-These are the writeups for ZeroDayTM CTF, made by Dacia Team.
+- made by Dacia Team.
 
-Dacia Team won 2nd place in the competition.
+We won 2nd place!!!
 
 ## Categories
 
