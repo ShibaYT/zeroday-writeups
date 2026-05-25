@@ -30,8 +30,12 @@ Opening the binary in ida, we can see its written in GO.
 Inspecting the **`main_main`** function we can see how the binary works
 
 ![alt text](image.png)
+<<<<<<< HEAD
 
 The binary reads from stdin given input and saves it. It also expects and EOF , especially from the output of a `cat` program
+=======
+The binary reads from stdin given input and saves it. It also expects and EOF , especially from the output of a `cat` command
+>>>>>>> 6f244b81fc73e3b73361155687780405a0c8d1c2
 
 ![alt text](image-1.png)
 
