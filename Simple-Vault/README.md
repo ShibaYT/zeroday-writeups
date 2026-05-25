@@ -24,6 +24,7 @@
 Opening the binary in ida we can see its inner workings:
 
 ![alt text](image.png)
+
 As we can see inside the main function, it asks for a password, and checks if every byte of our input is equal with every byte of the `aLsfmpfpnf` array xored with 0x23
 
 

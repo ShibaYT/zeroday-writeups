@@ -30,24 +30,30 @@ Opening the binary in ida, we can see its written in GO.
 Inspecting the **`main_main`** function we can see how the binary works
 
 ![alt text](image.png)
+
 The binary reads from stdin given input and saves it. It also expects and EOF , especially from the output of a `cat` program
 
 ![alt text](image-1.png)
+
 We can see the program processes the string and then passes it to the **`main_secureHash`** function
 
 ![alt text](image-2.png)
+
 Inside the **`main_secureHash`** function, we can see it loops over the lenght of the `flag` argument, which is the contents of the stdin, aka our flag plaintext.
 
 Looking at the code, we can see the `main_operations` local variable, which is defined in the data segment as a `_slice _main_operation` custom data type. Lets look into it:
 ![alt text](image-3.png)
+
 It contains an array of another custom structure, `main_operation`, and two int variables, len and cap.
 
 The other structure is defined like this:
 ![alt text](image-4.png)
+
 It seems to have some kind of value, kind, and exponent.
 
 Now that we know what the `main_operations` variable is, lets look again in the `main_secureHash` function:
 ![alt text](image-5.png)
+
 This means that for every character of the plain text, it takes its index, and using that works with the operations table at that same index, meaning it hashes every character differently based on its index.
 
 At this point i time i gave up reverse engineering it because it was too complex.
